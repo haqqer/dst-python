@@ -3,7 +3,7 @@ import math 	#untuk mengimport class math
 
 angka_kunci = math.ceil(random()*100) 	#math.ceil berfungsi untuk membulatkan angka random
 print("Aku adalah angka antara 1 - 100")
-sisa_tebakan = 10 	#sisa tebakan untuk user
+sisa_tebakan = 5 	#sisa tebakan untuk user
 i=0 
 
 

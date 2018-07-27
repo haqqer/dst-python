@@ -146,3 +146,21 @@ int main()
     }
 }
 ```
+
+#### Lanjutan(Dictionary)
+> Bahasa C
+```
+#include <stdio.h>
+
+typedef struct {
+    char nim[10];
+    char jurusan[4];
+    int umur;
+} Mahasiswa;
+
+int main()
+{
+    Mahasiswa Ahmad = {'A11.2017.10401', 'TI', 19};
+    Mahasiswa Mahmud = {'A11.2017.10402', 'TI', 20};
+}
+```
