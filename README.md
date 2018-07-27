@@ -97,3 +97,52 @@ if(a==b):
 else:
 	print("Benar")
 ```
+
+#### 5. Loop/Perulangan
+
+> Bahasa C
+```
+#include <stdio.h>
+
+int main()
+{
+	int i;
+	for(i=0; i<10; i++)
+	{
+	    printf("%d ", i);
+	}
+    i=0
+    while(i<10)
+    {
+        i++;
+        printf("%d ", i); 
+    }
+}
+```
+
+> Bahasa Python
+```
+for i in range(0,10):
+	print(i, end=' ')
+
+i=0
+while i < 10:
+    i+=1
+    print(i)
+```
+
+#### 6. Struktur Data (List)
+> Bahasa C
+```
+#include <stdio.h>
+
+int main()
+{
+    int arr[4] = {10, 20, 30, 40};
+    int i;
+    for(i=0; i<4; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+}
+```
