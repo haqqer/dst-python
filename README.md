@@ -48,22 +48,23 @@ nama = "DOSCOM"
 int main()
 {
 	int a,b;
-	a = 2;
-	b = 3;
+	print("a = ");
+	scanf("%d", &a);
+	print("b = ");
+        scanf("%d", &b);
 	printf("%d + %d = %d", a,b,a+b);
 }
 ```
 
 > Bahasa Python
 ```
-a = 2
-b = 3
+a = input("a = ")
+b = input("b = ")
 
 print("%d + %d = %d" % (a,b,a+b)) 
-#output: 2 + 3 = 5
 
 print("{0} + {1} = {2}".format(a,b,a+b))
-#output: 2 + 3 = 5
+
 ```
 
 #### 4. IF CONDITION
