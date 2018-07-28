@@ -164,3 +164,37 @@ int main()
     Mahasiswa Mahmud = {'A11.2017.10402', 'TI', 20};
 }
 ```
+
+#### Fungsi
+> Bahasa C
+```
+#include <stdio.h>
+
+void hello()
+{
+    printf("Hello Lhur!\n");
+}
+
+int tambah(int a, int b)
+{
+    return (a+b)
+}
+
+int main()
+{
+    hello();
+    printf("%d\n", tambah(1,2));
+}
+```
+
+> Bahasa Python
+```
+def hello():
+    return "Hello Lhur"
+
+def tambah(a, b):
+    return (a+b)
+
+hello()
+print(tambah(1,2))
+```
